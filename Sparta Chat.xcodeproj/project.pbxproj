@@ -7,21 +7,42 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AF797B4C2A83BB94179BE6CC /* Pods_Sparta_Chat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71E128B0CB47810AA1C1AE3C /* Pods_Sparta_Chat.framework */; };
+		E46A4FA1226E4A7D0078A790 /* UserTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E46A4FA0226E4A7D0078A790 /* UserTableViewCell.swift */; };
+		E48967F2226BDA9B008FF8AD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E48967F1226BDA9B008FF8AD /* GoogleService-Info.plist */; };
+		E48967F4226BDB98008FF8AD /* FUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48967F3226BDB98008FF8AD /* FUser.swift */; };
+		E48967F6226BDE76008FF8AD /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48967F5226BDE76008FF8AD /* Constants.swift */; };
+		E48967F8226BE5E3008FF8AD /* CollectionReference.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48967F7226BE5E3008FF8AD /* CollectionReference.swift */; };
+		E48967FA226BE6A0008FF8AD /* HelperFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48967F9226BE6A0008FF8AD /* HelperFunctions.swift */; };
+		E48967FE226C5091008FF8AD /* FinishRegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48967FD226C5090008FF8AD /* FinishRegistrationViewController.swift */; };
+		E4896802226D9B22008FF8AD /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4896801226D9B21008FF8AD /* SettingsTableViewController.swift */; };
 		E4DE31F9226BCB1100DB9C5B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4DE31F8226BCB1100DB9C5B /* AppDelegate.swift */; };
-		E4DE31FB226BCB1100DB9C5B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4DE31FA226BCB1100DB9C5B /* ViewController.swift */; };
 		E4DE31FE226BCB1200DB9C5B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4DE31FC226BCB1200DB9C5B /* Main.storyboard */; };
 		E4DE3200226BCB1400DB9C5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4DE31FF226BCB1400DB9C5B /* Assets.xcassets */; };
 		E4DE3203226BCB1400DB9C5B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4DE3201226BCB1400DB9C5B /* LaunchScreen.storyboard */; };
+		E4DE320B226BD00000DB9C5B /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4DE320A226BD00000DB9C5B /* WelcomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		71E128B0CB47810AA1C1AE3C /* Pods_Sparta_Chat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sparta_Chat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BBE9AB126B67CCA9FEFAAD9 /* Pods-Sparta Chat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sparta Chat.release.xcconfig"; path = "Pods/Target Support Files/Pods-Sparta Chat/Pods-Sparta Chat.release.xcconfig"; sourceTree = "<group>"; };
+		81977E7B4D7BBD41AEF6B8DF /* Pods-Sparta Chat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sparta Chat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Sparta Chat/Pods-Sparta Chat.debug.xcconfig"; sourceTree = "<group>"; };
+		E46A4FA0226E4A7D0078A790 /* UserTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTableViewCell.swift; sourceTree = "<group>"; };
+		E48967F1226BDA9B008FF8AD /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E48967F3226BDB98008FF8AD /* FUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FUser.swift; path = ../FUser.swift; sourceTree = "<group>"; };
+		E48967F5226BDE76008FF8AD /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		E48967F7226BE5E3008FF8AD /* CollectionReference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionReference.swift; sourceTree = "<group>"; };
+		E48967F9226BE6A0008FF8AD /* HelperFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HelperFunctions.swift; path = ../HelperFunctions.swift; sourceTree = "<group>"; };
+		E48967FB226C42F8008FF8AD /* ProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E48967FD226C5090008FF8AD /* FinishRegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishRegistrationViewController.swift; sourceTree = "<group>"; };
+		E4896801226D9B21008FF8AD /* SettingsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTableViewController.swift; sourceTree = "<group>"; };
 		E4DE31F5226BCB1100DB9C5B /* Sparta Chat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sparta Chat.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4DE31F8226BCB1100DB9C5B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E4DE31FA226BCB1100DB9C5B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E4DE31FD226BCB1200DB9C5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E4DE31FF226BCB1400DB9C5B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E4DE3202226BCB1400DB9C5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E4DE3204226BCB1400DB9C5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4DE320A226BD00000DB9C5B /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +50,56 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF797B4C2A83BB94179BE6CC /* Pods_Sparta_Chat.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7959AA363CBD1A0A17DD6EAE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				81977E7B4D7BBD41AEF6B8DF /* Pods-Sparta Chat.debug.xcconfig */,
+				7BBE9AB126B67CCA9FEFAAD9 /* Pods-Sparta Chat.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B1C2C8D31E27F8AFB6C3AD0D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E48967FB226C42F8008FF8AD /* ProgressHUD.framework */,
+				71E128B0CB47810AA1C1AE3C /* Pods_Sparta_Chat.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E48967FF226C50B9008FF8AD /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				E48967F5226BDE76008FF8AD /* Constants.swift */,
+				E48967F9226BE6A0008FF8AD /* HelperFunctions.swift */,
+				E48967F7226BE5E3008FF8AD /* CollectionReference.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		E4896800226C50EC008FF8AD /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E48967F3226BDB98008FF8AD /* FUser.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		E4DE31EC226BCB1100DB9C5B = {
 			isa = PBXGroup;
 			children = (
 				E4DE31F7226BCB1100DB9C5B /* Sparta Chat */,
 				E4DE31F6226BCB1100DB9C5B /* Products */,
+				7959AA363CBD1A0A17DD6EAE /* Pods */,
+				B1C2C8D31E27F8AFB6C3AD0D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,12 +114,18 @@
 		E4DE31F7226BCB1100DB9C5B /* Sparta Chat */ = {
 			isa = PBXGroup;
 			children = (
+				E4896800226C50EC008FF8AD /* Classes */,
 				E4DE31F8226BCB1100DB9C5B /* AppDelegate.swift */,
-				E4DE31FA226BCB1100DB9C5B /* ViewController.swift */,
+				E48967FF226C50B9008FF8AD /* Helpers */,
+				E4DE320A226BD00000DB9C5B /* WelcomeViewController.swift */,
+				E48967FD226C5090008FF8AD /* FinishRegistrationViewController.swift */,
+				E46A4FA0226E4A7D0078A790 /* UserTableViewCell.swift */,
 				E4DE31FC226BCB1200DB9C5B /* Main.storyboard */,
+				E4896801226D9B21008FF8AD /* SettingsTableViewController.swift */,
 				E4DE31FF226BCB1400DB9C5B /* Assets.xcassets */,
 				E4DE3201226BCB1400DB9C5B /* LaunchScreen.storyboard */,
 				E4DE3204226BCB1400DB9C5B /* Info.plist */,
+				E48967F1226BDA9B008FF8AD /* GoogleService-Info.plist */,
 			);
 			path = "Sparta Chat";
 			sourceTree = "<group>";
@@ -71,9 +137,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E4DE3207226BCB1400DB9C5B /* Build configuration list for PBXNativeTarget "Sparta Chat" */;
 			buildPhases = (
+				4CC5BBF63B499B6CD52FADB3 /* [CP] Check Pods Manifest.lock */,
 				E4DE31F1226BCB1100DB9C5B /* Sources */,
 				E4DE31F2226BCB1100DB9C5B /* Frameworks */,
 				E4DE31F3226BCB1100DB9C5B /* Resources */,
+				3D0DB6766EE280B936646FB6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -123,6 +191,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E4DE3203226BCB1400DB9C5B /* LaunchScreen.storyboard in Resources */,
+				E48967F2226BDA9B008FF8AD /* GoogleService-Info.plist in Resources */,
 				E4DE3200226BCB1400DB9C5B /* Assets.xcassets in Resources */,
 				E4DE31FE226BCB1200DB9C5B /* Main.storyboard in Resources */,
 			);
@@ -130,13 +199,93 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3D0DB6766EE280B936646FB6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Sparta Chat/Pods-Sparta Chat-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL-GRPC/openssl_grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/DACircularProgress/DACircularProgress.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/IDMPhotoBrowser/IDMPhotoBrowser.framework",
+				"${BUILT_PRODUCTS_DIR}/IQAudioRecorderController/IQAudioRecorderController.framework",
+				"${BUILT_PRODUCTS_DIR}/JSQMessagesViewController/JSQMessagesViewController.framework",
+				"${BUILT_PRODUCTS_DIR}/JSQSystemSoundPlayer/JSQSystemSoundPlayer.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/ProgressHUD/ProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/SCSiriWaveformView/SCSiriWaveformView.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-C++/grpcpp.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+				"${BUILT_PRODUCTS_DIR}/pop/pop.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl_grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DACircularProgress.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IDMPhotoBrowser.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQAudioRecorderController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JSQMessagesViewController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JSQSystemSoundPlayer.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SCSiriWaveformView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpcpp.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/pop.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Sparta Chat/Pods-Sparta Chat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4CC5BBF63B499B6CD52FADB3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Sparta Chat-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E4DE31F1226BCB1100DB9C5B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E4DE31FB226BCB1100DB9C5B /* ViewController.swift in Sources */,
+				E48967F4226BDB98008FF8AD /* FUser.swift in Sources */,
+				E46A4FA1226E4A7D0078A790 /* UserTableViewCell.swift in Sources */,
 				E4DE31F9226BCB1100DB9C5B /* AppDelegate.swift in Sources */,
+				E4DE320B226BD00000DB9C5B /* WelcomeViewController.swift in Sources */,
+				E48967F8226BE5E3008FF8AD /* CollectionReference.swift in Sources */,
+				E4896802226D9B22008FF8AD /* SettingsTableViewController.swift in Sources */,
+				E48967F6226BDE76008FF8AD /* Constants.swift in Sources */,
+				E48967FE226C5091008FF8AD /* FinishRegistrationViewController.swift in Sources */,
+				E48967FA226BE6A0008FF8AD /* HelperFunctions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,11 +429,42 @@
 		};
 		E4DE3208226BCB1400DB9C5B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81977E7B4D7BBD41AEF6B8DF /* Pods-Sparta Chat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TMV2HTP4TE;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/BoringSSL-GRPC\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/DACircularProgress\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseAuth\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseCore\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseDatabase\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseFirestore\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseInstanceID\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseStorage\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GTMSessionFetcher\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GoogleUtilities\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/IDMPhotoBrowser\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/IQAudioRecorderController\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/JSQMessagesViewController\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/JSQSystemSoundPlayer\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/MBProgressHUD\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/ProgressHUD\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Protobuf\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/SCSiriWaveformView\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/SDWebImage\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/gRPC-C++\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/gRPC-Core\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/leveldb-library\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/nanopb\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/pop\"",
+					"\"${PODS_ROOT}/FirebaseAnalytics/Frameworks\"",
+					"\"${PODS_ROOT}/GoogleAppMeasurement/Frameworks\"",
+				);
 				INFOPLIST_FILE = "Sparta Chat/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -298,11 +478,42 @@
 		};
 		E4DE3209226BCB1400DB9C5B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BBE9AB126B67CCA9FEFAAD9 /* Pods-Sparta Chat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TMV2HTP4TE;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/BoringSSL-GRPC\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/DACircularProgress\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseAuth\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseCore\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseDatabase\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseFirestore\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseInstanceID\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseStorage\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GTMSessionFetcher\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GoogleUtilities\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/IDMPhotoBrowser\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/IQAudioRecorderController\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/JSQMessagesViewController\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/JSQSystemSoundPlayer\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/MBProgressHUD\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/ProgressHUD\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Protobuf\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/SCSiriWaveformView\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/SDWebImage\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/gRPC-C++\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/gRPC-Core\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/leveldb-library\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/nanopb\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/pop\"",
+					"\"${PODS_ROOT}/FirebaseAnalytics/Frameworks\"",
+					"\"${PODS_ROOT}/GoogleAppMeasurement/Frameworks\"",
+				);
 				INFOPLIST_FILE = "Sparta Chat/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
