@@ -10,18 +10,9 @@ import UIKit
 
 class SettingsTableViewController: UITableViewController {
 
-
-
-
-
-
-
-
-
     override func viewDidLoad() {
         super.viewDidLoad()
         navigationController?.navigationBar.prefersLargeTitles = true
-
 
     }
 
@@ -44,11 +35,10 @@ class SettingsTableViewController: UITableViewController {
                 self.showLoginView()
             }
         }
-
     }
+
     func showLoginView(){
         let mainView = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "welcome")
         self.present(mainView, animated: true, completion: nil)
-
     }
 }

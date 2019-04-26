@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		AF797B4C2A83BB94179BE6CC /* Pods_Sparta_Chat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71E128B0CB47810AA1C1AE3C /* Pods_Sparta_Chat.framework */; };
 		E46A4FA1226E4A7D0078A790 /* UserTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E46A4FA0226E4A7D0078A790 /* UserTableViewCell.swift */; };
+		E46A4FA4226E50DB0078A790 /* UsersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E46A4FA3226E50DB0078A790 /* UsersTableViewController.swift */; };
 		E48967F2226BDA9B008FF8AD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E48967F1226BDA9B008FF8AD /* GoogleService-Info.plist */; };
 		E48967F4226BDB98008FF8AD /* FUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48967F3226BDB98008FF8AD /* FUser.swift */; };
 		E48967F6226BDE76008FF8AD /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48967F5226BDE76008FF8AD /* Constants.swift */; };
@@ -16,6 +17,10 @@
 		E48967FA226BE6A0008FF8AD /* HelperFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48967F9226BE6A0008FF8AD /* HelperFunctions.swift */; };
 		E48967FE226C5091008FF8AD /* FinishRegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48967FD226C5090008FF8AD /* FinishRegistrationViewController.swift */; };
 		E4896802226D9B22008FF8AD /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4896801226D9B21008FF8AD /* SettingsTableViewController.swift */; };
+		E490AB2D226F4F3F0014DF66 /* Sparta_ChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E490AB2C226F4F3F0014DF66 /* Sparta_ChatTests.swift */; };
+		E490AB35226F50900014DF66 /* ProfileUnitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E490AB34226F50900014DF66 /* ProfileUnitTests.swift */; };
+		E4D2FFF1226E5A0E00119BF8 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D2FFF0226E5A0E00119BF8 /* ChatViewController.swift */; };
+		E4D2FFF3226E7B6A00119BF8 /* ProfileTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D2FFF2226E7B6900119BF8 /* ProfileTableViewController.swift */; };
 		E4DE31F9226BCB1100DB9C5B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4DE31F8226BCB1100DB9C5B /* AppDelegate.swift */; };
 		E4DE31FE226BCB1200DB9C5B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4DE31FC226BCB1200DB9C5B /* Main.storyboard */; };
 		E4DE3200226BCB1400DB9C5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4DE31FF226BCB1400DB9C5B /* Assets.xcassets */; };
@@ -23,11 +28,22 @@
 		E4DE320B226BD00000DB9C5B /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4DE320A226BD00000DB9C5B /* WelcomeViewController.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		E490AB2F226F4F3F0014DF66 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E4DE31ED226BCB1100DB9C5B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E4DE31F4226BCB1100DB9C5B;
+			remoteInfo = "Sparta Chat";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		71E128B0CB47810AA1C1AE3C /* Pods_Sparta_Chat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sparta_Chat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BBE9AB126B67CCA9FEFAAD9 /* Pods-Sparta Chat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sparta Chat.release.xcconfig"; path = "Pods/Target Support Files/Pods-Sparta Chat/Pods-Sparta Chat.release.xcconfig"; sourceTree = "<group>"; };
 		81977E7B4D7BBD41AEF6B8DF /* Pods-Sparta Chat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sparta Chat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Sparta Chat/Pods-Sparta Chat.debug.xcconfig"; sourceTree = "<group>"; };
-		E46A4FA0226E4A7D0078A790 /* UserTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTableViewCell.swift; sourceTree = "<group>"; };
+		E46A4FA0226E4A7D0078A790 /* UserTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UserTableViewCell.swift; path = ../UserTableViewCell.swift; sourceTree = "<group>"; };
+		E46A4FA3226E50DB0078A790 /* UsersTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersTableViewController.swift; sourceTree = "<group>"; };
 		E48967F1226BDA9B008FF8AD /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		E48967F3226BDB98008FF8AD /* FUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FUser.swift; path = ../FUser.swift; sourceTree = "<group>"; };
 		E48967F5226BDE76008FF8AD /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
@@ -36,6 +52,12 @@
 		E48967FB226C42F8008FF8AD /* ProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E48967FD226C5090008FF8AD /* FinishRegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishRegistrationViewController.swift; sourceTree = "<group>"; };
 		E4896801226D9B21008FF8AD /* SettingsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTableViewController.swift; sourceTree = "<group>"; };
+		E490AB2A226F4F3F0014DF66 /* Sparta ChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sparta ChatTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E490AB2C226F4F3F0014DF66 /* Sparta_ChatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sparta_ChatTests.swift; sourceTree = "<group>"; };
+		E490AB2E226F4F3F0014DF66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E490AB34226F50900014DF66 /* ProfileUnitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileUnitTests.swift; sourceTree = "<group>"; };
+		E4D2FFF0226E5A0E00119BF8 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		E4D2FFF2226E7B6900119BF8 /* ProfileTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTableViewController.swift; sourceTree = "<group>"; };
 		E4DE31F5226BCB1100DB9C5B /* Sparta Chat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sparta Chat.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4DE31F8226BCB1100DB9C5B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E4DE31FD226BCB1200DB9C5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -46,6 +68,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		E490AB27226F4F3F0014DF66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E4DE31F2226BCB1100DB9C5B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -75,6 +104,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		E46A4FA2226E50AC0078A790 /* Custom Cells */ = {
+			isa = PBXGroup;
+			children = (
+				E46A4FA0226E4A7D0078A790 /* UserTableViewCell.swift */,
+			);
+			path = "Custom Cells";
+			sourceTree = "<group>";
+		};
 		E48967FF226C50B9008FF8AD /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
@@ -93,10 +130,21 @@
 			path = Classes;
 			sourceTree = "<group>";
 		};
+		E490AB2B226F4F3F0014DF66 /* Sparta ChatTests */ = {
+			isa = PBXGroup;
+			children = (
+				E490AB2C226F4F3F0014DF66 /* Sparta_ChatTests.swift */,
+				E490AB2E226F4F3F0014DF66 /* Info.plist */,
+				E490AB34226F50900014DF66 /* ProfileUnitTests.swift */,
+			);
+			path = "Sparta ChatTests";
+			sourceTree = "<group>";
+		};
 		E4DE31EC226BCB1100DB9C5B = {
 			isa = PBXGroup;
 			children = (
 				E4DE31F7226BCB1100DB9C5B /* Sparta Chat */,
+				E490AB2B226F4F3F0014DF66 /* Sparta ChatTests */,
 				E4DE31F6226BCB1100DB9C5B /* Products */,
 				7959AA363CBD1A0A17DD6EAE /* Pods */,
 				B1C2C8D31E27F8AFB6C3AD0D /* Frameworks */,
@@ -107,6 +155,7 @@
 			isa = PBXGroup;
 			children = (
 				E4DE31F5226BCB1100DB9C5B /* Sparta Chat.app */,
+				E490AB2A226F4F3F0014DF66 /* Sparta ChatTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -115,13 +164,16 @@
 			isa = PBXGroup;
 			children = (
 				E4896800226C50EC008FF8AD /* Classes */,
-				E4DE31F8226BCB1100DB9C5B /* AppDelegate.swift */,
 				E48967FF226C50B9008FF8AD /* Helpers */,
+				E46A4FA2226E50AC0078A790 /* Custom Cells */,
+				E4DE31F8226BCB1100DB9C5B /* AppDelegate.swift */,
 				E4DE320A226BD00000DB9C5B /* WelcomeViewController.swift */,
 				E48967FD226C5090008FF8AD /* FinishRegistrationViewController.swift */,
-				E46A4FA0226E4A7D0078A790 /* UserTableViewCell.swift */,
 				E4DE31FC226BCB1200DB9C5B /* Main.storyboard */,
+				E4D2FFF2226E7B6900119BF8 /* ProfileTableViewController.swift */,
 				E4896801226D9B21008FF8AD /* SettingsTableViewController.swift */,
+				E4D2FFF0226E5A0E00119BF8 /* ChatViewController.swift */,
+				E46A4FA3226E50DB0078A790 /* UsersTableViewController.swift */,
 				E4DE31FF226BCB1400DB9C5B /* Assets.xcassets */,
 				E4DE3201226BCB1400DB9C5B /* LaunchScreen.storyboard */,
 				E4DE3204226BCB1400DB9C5B /* Info.plist */,
@@ -133,6 +185,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		E490AB29226F4F3F0014DF66 /* Sparta ChatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E490AB33226F4F3F0014DF66 /* Build configuration list for PBXNativeTarget "Sparta ChatTests" */;
+			buildPhases = (
+				E490AB26226F4F3F0014DF66 /* Sources */,
+				E490AB27226F4F3F0014DF66 /* Frameworks */,
+				E490AB28226F4F3F0014DF66 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E490AB30226F4F3F0014DF66 /* PBXTargetDependency */,
+			);
+			name = "Sparta ChatTests";
+			productName = "Sparta ChatTests";
+			productReference = E490AB2A226F4F3F0014DF66 /* Sparta ChatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		E4DE31F4226BCB1100DB9C5B /* Sparta Chat */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = E4DE3207226BCB1400DB9C5B /* Build configuration list for PBXNativeTarget "Sparta Chat" */;
@@ -162,6 +232,10 @@
 				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = "AbdelRahman Aref";
 				TargetAttributes = {
+					E490AB29226F4F3F0014DF66 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = E4DE31F4226BCB1100DB9C5B;
+					};
 					E4DE31F4226BCB1100DB9C5B = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
@@ -181,11 +255,19 @@
 			projectRoot = "";
 			targets = (
 				E4DE31F4226BCB1100DB9C5B /* Sparta Chat */,
+				E490AB29226F4F3F0014DF66 /* Sparta ChatTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		E490AB28226F4F3F0014DF66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E4DE31F3226BCB1100DB9C5B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -273,23 +355,43 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		E490AB26226F4F3F0014DF66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E490AB2D226F4F3F0014DF66 /* Sparta_ChatTests.swift in Sources */,
+				E490AB35226F50900014DF66 /* ProfileUnitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E4DE31F1226BCB1100DB9C5B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				E48967F4226BDB98008FF8AD /* FUser.swift in Sources */,
 				E46A4FA1226E4A7D0078A790 /* UserTableViewCell.swift in Sources */,
+				E4D2FFF1226E5A0E00119BF8 /* ChatViewController.swift in Sources */,
 				E4DE31F9226BCB1100DB9C5B /* AppDelegate.swift in Sources */,
 				E4DE320B226BD00000DB9C5B /* WelcomeViewController.swift in Sources */,
 				E48967F8226BE5E3008FF8AD /* CollectionReference.swift in Sources */,
+				E4D2FFF3226E7B6A00119BF8 /* ProfileTableViewController.swift in Sources */,
 				E4896802226D9B22008FF8AD /* SettingsTableViewController.swift in Sources */,
 				E48967F6226BDE76008FF8AD /* Constants.swift in Sources */,
 				E48967FE226C5091008FF8AD /* FinishRegistrationViewController.swift in Sources */,
+				E46A4FA4226E50DB0078A790 /* UsersTableViewController.swift in Sources */,
 				E48967FA226BE6A0008FF8AD /* HelperFunctions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E490AB30226F4F3F0014DF66 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E4DE31F4226BCB1100DB9C5B /* Sparta Chat */;
+			targetProxy = E490AB2F226F4F3F0014DF66 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		E4DE31FC226BCB1200DB9C5B /* Main.storyboard */ = {
@@ -311,6 +413,46 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		E490AB31226F4F3F0014DF66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TMV2HTP4TE;
+				INFOPLIST_FILE = "Sparta ChatTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.abdelRahman.Sparta-ChatTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sparta Chat.app/Sparta Chat";
+			};
+			name = Debug;
+		};
+		E490AB32226F4F3F0014DF66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TMV2HTP4TE;
+				INFOPLIST_FILE = "Sparta ChatTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.abdelRahman.Sparta-ChatTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sparta Chat.app/Sparta Chat";
+			};
+			name = Release;
+		};
 		E4DE3205226BCB1400DB9C5B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -528,6 +670,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		E490AB33226F4F3F0014DF66 /* Build configuration list for PBXNativeTarget "Sparta ChatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E490AB31226F4F3F0014DF66 /* Debug */,
+				E490AB32226F4F3F0014DF66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		E4DE31F0226BCB1100DB9C5B /* Build configuration list for PBXProject "Sparta Chat" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
